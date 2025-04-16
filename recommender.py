@@ -13,7 +13,7 @@ def recommender(user_id, user_product, user_features, product_features, model, p
     })
     
     #print("used COLUMNS:", user_data.columns)
-    #print("user data AFTER: ", user_id)
+    #print("user data AFTER: ")
     #print(user_data)
 
     rec_user = user_data.drop(columns=["user_id", "product_id"])

@@ -21,4 +21,4 @@ if __name__ == "__main__":
         products)
 
     
-    print("Top recommendations:\n", recs)
+    print("product recommendations:\n", recs)
