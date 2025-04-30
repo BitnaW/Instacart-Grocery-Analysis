@@ -1,4 +1,5 @@
 def create_profile(orders, prior):
+
     prior = prior.merge(orders[["order_id", "user_id", "order_number"]], on="order_id")
 
     user_product = prior.groupby(["user_id", "product_id"]).agg(
